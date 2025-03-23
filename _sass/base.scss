@@ -1,9 +1,18 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$backgroundColor: #000000;
+$bodyHover: #004040;
+$bgPostItem: #1b1b1b;
+$bodyColor: whitesmoke;
+$bodyFont: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$boldFontWeight: 700;
+$defaultBlur: blur(8px);
+$roundBorderRadius: 10px;
 
-body {
-  background: $backgroundColor;
+body, html {
+  overflow-x: hidden;
+  margin:0;
+  height: 100%;
+  width: 100%;
+  background-color: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
 }

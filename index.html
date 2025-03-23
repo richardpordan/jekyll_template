@@ -1,0 +1,19 @@
+---
+layout: page
+title: Home
+---
+
+  <div id="recent-posts">
+    {% for page in site.pages %}
+      {% if page.layout == "post" %}
+        {% if page.title %}
+          <a href="{{ page.url | prepend: site.baseurl }}">
+            <div class="post-item" >
+              <img class="post-preview-img" src="{{ page.preview_url | prepend: site.baseurl }}" alt="post preview image">
+              <p>{{ page.title }}</p>
+            </div>
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>

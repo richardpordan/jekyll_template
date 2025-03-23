@@ -3,9 +3,11 @@
   {% include head.html %}
   <body>
     <div id="tsparticles"></div>
+    {% include header.html %}
     <div id="main-container">
-      {{ content }}
+      <div id="content">{{ content }}</div>
     </div>
     {% include footer.html %}
+    {% include particles_script.html %}
   </body>
 </html>

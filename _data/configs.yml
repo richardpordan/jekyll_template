@@ -1,0 +1,5 @@
+jsParticles: 
+  cdn: "https://cdn.jsdelivr.net/npm/tsparticles@3.8.1/tsparticles.bundle.min.js"
+  script_path: "/assets/js/particles.js"
+
+css_path: "/assets/css/main.css"

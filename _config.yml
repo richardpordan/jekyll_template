@@ -1,9 +1,9 @@
 # Site Settings
-title: Jekyll template
+title: Jekyll particles template
 description: >
-  My Jekyll template from blank with custom css.
+  My Jekyll template from blank with custom css and particles background.
 baseurl: ''
 url: 'https://test.richardpordan.com/'
 sass:
   sass_dir: _sass
-include: ['_pages']
+include: ['_pages', '_posts']
