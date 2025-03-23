@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    <div id="tsparticles"></div>
+    {% include header.html %}
+    <div id="main-container">
+      <div id="content">{{ content }}</div>
+    </div>
+    {% include footer.html %}
+    {% include particles_script.html %}
+  </body>
+</html>

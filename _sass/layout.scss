@@ -1,0 +1,105 @@
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  backdrop-filter: $defaultBlur;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-container {
+  padding: 20px 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: $bodyColor;
+  padding: 20px;
+  font-weight: $boldFontWeight;
+}
+
+nav a:hover {
+  background-color: $bodyHover;
+}
+
+header h1 {
+  padding: 1vh 5vw;
+  margin: 0;
+}
+
+#main-container {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+}
+
+#content {
+  padding: 20px;
+  margin: 0vw 5vw;
+  backdrop-filter: $defaultBlur;
+  border-radius: $roundBorderRadius;
+}
+
+#post-content {
+  padding: 10px;
+  background-color: $backgroundColor;
+  border-radius: $roundBorderRadius;
+}
+
+#post-meta {
+  font-style: italic;
+}
+
+#recent-posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#recent-posts a {
+  text-decoration: none;
+  color: $bodyColor;
+}
+
+.post-item {
+  text-align: center;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  background-color: $bgPostItem;
+  border-radius: $roundBorderRadius;
+}
+
+.post-item:hover {
+  background-color: $bodyHover;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.post-preview-img {
+  max-width: 200px;
+}
+
+footer {
+  width: 100%;
+  backdrop-filter: $defaultBlur;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+
+footer div {
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: $bodyColor;
+  font-weight: $boldFontWeight;
+}

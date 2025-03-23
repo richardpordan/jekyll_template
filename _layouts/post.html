@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div id="post-content">
+  <p id="post-meta">
+    {{ page.date | date: "%Y %b %d" }}
+    {% if page.author %} • {{ page.author }}{% endif %}
+    {% if page.meta %} • {{ page.meta }}{% endif %}
+  </p>
+  {{ content }}
+</div>
